@@ -71,3 +71,7 @@ console.log(message);
 //если countryName равно "Чили"
 // то значение message будет равно
 // 'В выбранную страну доставка недоступна.'
+
+const languages = [1, 2, 3, 4, 5];
+languages.splice(2, 2, 6, 7);
+console.log(languages);
